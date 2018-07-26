@@ -1,0 +1,16 @@
+{
+  "name": "modern_portfolio",
+  "version": "1.0.0",
+  "description": "ResponsivePortfolioWebsite",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^4.9.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "howdy": "echo \"Howdy, I'm a sass script!\"",
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "MichaelTaddeucci",
+  "license": "MIT"
+}

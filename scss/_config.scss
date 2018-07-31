@@ -30,6 +30,17 @@ $background-opacity: 0.85;
   }
 }
 
+//set text color function
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    //return black if greater than 40
+    @return #000;
+  } @else {
+    //else white
+    @return #fff;
+  }
+}
+
 //media query mixins
 
 @mixin mediaSm {

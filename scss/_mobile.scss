@@ -39,9 +39,23 @@
 
     //small portrait file for smaller devices TODO must make smaller file and update
     .portrait {
-      background: url(/dist/img/portrait.jpeg);
+      background: url(/dist/img/portrait.png);
+      background-size: 150px;
       width: 150px;
       height: 150px;
+    }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+    grid-template-areas: 1fr;
+    .portrait {
+      background-size: 250px;
     }
   }
 }

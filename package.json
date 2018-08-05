@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "ResponsivePortfolioWebsite",
   "main": "index.js",
+  "homepage": "https://mtaddevi.github.io/michaeltaddeucci_portfolio",
   "dependencies": {
+    "gh-pages": "^1.2.0",
     "node-sass": "^4.9.2"
   },
   "devDependencies": {},
   "scripts": {
     "howdy": "echo \"Howdy, I'm a sass script!\"",
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "MichaelTaddeucci",
   "license": "MIT"

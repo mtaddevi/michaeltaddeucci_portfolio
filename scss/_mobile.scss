@@ -45,7 +45,7 @@
 
     //small portrait file for smaller devices TODO must make smaller file and update
     .portrait {
-      background: url(/dist/img/portrait.png);
+      background: url(/dist/img/grayPortrait.png);
       background-size: 150px;
       width: 150px;
       height: 150px;
@@ -61,6 +61,7 @@
       "job3";
     grid-template-areas: 1fr;
     .portrait {
+      background: url(/dist/img/grayPortrait.png);
       background-size: 250px;
     }
   }
